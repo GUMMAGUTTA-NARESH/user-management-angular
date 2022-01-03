@@ -11,7 +11,7 @@ export class EmployeeListComponent implements OnInit {
 
    employees: Employee[];
    public message:any;
-  urlType: boolean = false;
+  urlType: boolean = true;
   showMsg: boolean = false;
   public to :any;
   public subject :any;

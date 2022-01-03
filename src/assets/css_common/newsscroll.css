@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+#ticker {
+	
+
+	overflow:auto;
+	margin-left:0px;
+	margin-right:0px;
+	margin-top:10px;
+	height:142px;
+    width: 193px;
+}
+#ticker dt {
+	padding:0px 10px 10px 10px;
+	background-color:#fff;
+	border-bottom:1px dotted #919ea3;
+	border-right:none;
+	position:relative;
+	margin-bottom:10px;
+}
+#ticker .dd {
+	margin-left:0;
+	padding:0px 10px 10px 10px;
+	border-bottom:1px dotted #919ea3;
+	background-color:#fff;
+	border-left:1px solid #ffffff;
+	position:relative;
+	margin-bottom:10px;
+}
+#ticker dd.last {
+	border-bottom:1px solid #ffffff;
+}
+#ticker div {
+	margin:10px 0px 0px 0px;
+}
+.newssec {
+	padding:0px 0px 0px 15px;
+	background-image:url(../images/arrowright.jpg);
+	background-repeat:no-repeat;
+	background-position:0px 4px;
+}
+.newssec p{
+	margin:0px;
+	padding:0px;
+}
+.newssec p.date{
+	color:#ff6600;
+}
+.newssec p a{
+	color:#000000;
+}
+.newssec p a:hover{
+	color:#444444;
+}
+
+.newsbreakline {
+	margin:10px 0px 10px 0px;
+	border-bottom:1px dotted #919ea3;
+}

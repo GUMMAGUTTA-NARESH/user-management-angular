@@ -1,0 +1,95 @@
+a{
+	text-decoration:none;
+}
+#right_col {
+
+	margin:0px;
+	padding:0px;
+	float:left;
+	overflow:hidden;
+}
+.right_side_col {
+
+	margin:0px;
+	padding:0px;
+	float:left;
+}
+
+
+.right_sidetab_mid {
+	float:left;
+	margin:0px;
+	padding:0px;
+	border:0px #233d47 solid;
+	
+}
+#payment-paystate {
+	height: 40px;
+	width: 700px;
+}
+
+
+.contact_details{
+		font-family:'YanoneKaffeesatzLight', Tahoma, Arial, Helvetica, Sans-Serif;
+
+	font-size:15px;
+	color:#FF6633;
+	font-weight:bold;
+	}
+	
+h2{font-size:12px;font-weight:normal; color:#CC3300; display:inline;margin-right:0px; text-align:right;}
+
+.expand{padding-bottom:opx;}
+
+/* --- Links  --- */
+
+  
+.expand a {
+  padding:3px 10px
+}
+.expand a:link, .expand a:visited {
+ margin-right:216px;
+}
+.expand a:hover, .expand a:active, .expand a:focus {
+  text-decoration:underline
+  
+}
+.expand a.open:link, .expand a.open:visited {
+margin-right:216px;
+color:#CC3300;
+}
+
+.important_notes{
+	font-family:'junction_regularregular',Open Sans,Strait,Tahoma,sans-serif;
+	font-size:24px;
+	color:#de1f55;
+	font-weight:bold;
+	text-decoration:none;
+	text-align:justify;
+
+	}
+.important_notes a:hover, .expand a:active, .expand a:focus 
+{
+    font-size:16px;
+  text-decoration:underline;
+  color:Green;
+}
+
+.important_notes2{
+	font-family:"tahoma";
+	font-size:12px;
+	color:#333333;
+	font-weight:bold;
+	text-decoration:none;
+	text-align:justify;
+	}
+	
+	
+.notes{
+	font-family:"Tahoma";
+	font-size:13px;
+	color:#FF0000;
+	margin-top:20px;
+	text-decoration:none;
+	text-align:justify;
+	}

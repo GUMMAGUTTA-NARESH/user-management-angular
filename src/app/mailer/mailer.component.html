@@ -1,0 +1,89 @@
+<!-- <html> -->
+<!-- <head><title>GUMMAGUTTA NARESH</title> -->
+    <meta charset="utf-8">
+    <meta name="author" content="GUMMAGUTTA NARESH">
+    <!-- <link rel="Stylesheet" type="text/css" href="assets/css_common/style.css"> -->
+   
+    
+    <table align="center">
+        <tbody>
+            <tr>
+                <td style="vertical-align:middle;" align="center"></td>
+            </tr>
+            <tr>
+                <td style="vertical-align:middle;" align="center"><img src="assets/images/logo2.png" height=100 width=100 />
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <div style="padding: 10px; border: thin solid #DFDFDF; background-color: #F7F7F7">
+        <table align="center" width="350px">
+            <tbody>
+                <tr>
+                    <td style="height:40px;  font-family: Arial, Helvetica, sans-serif; font-size: large; vertical-align: middle; text-align: center; color: #FFFFFF; padding-left: 5px; font-weight: bold;"
+                        colspan="2" bgcolor="#007700">
+                        Send an email </td>
+                </tr>
+            </tbody>
+        </table>
+    
+        <table border="0" align="center">
+            <tbody>
+                <tr>
+                    <!-- <td background="assets/images/Login_BG.png" align="center" height="200px" width="438px" valin="top"> -->
+                        <table style="padding-top:60px;padding-right:120px;" align="center" border="0" cellpadding="0" cellspacing="2">
+                            <tbody>
+                                <tr>
+                                    <td style="font-family: century gothic, arial, verdana; font-size:20px; font-weight:bold;" align="right">
+                                    <font color="orange"><label>To: </label></font></td>
+                                    <td>
+                                        <input type="text" name="to" [(ngModel)]="to" id="to" required placeholder="Enter Email id" />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="font-family: century gothic, arial, verdana; font-size:20px; font-weight:bold;" align="right">
+                                        <font color="orange"><label>Subject: </label></font></td>
+                                        <td>
+                                            <input type="text" name="subject" [(ngModel)]="subject" id="subject" required placeholder="Enter Subject" />
+                                        </td>
+                                </tr>
+                                <tr>
+                                    <td style="font-family: century gothic, arial, verdana; font-size:20px; font-weight:bold;" align="right">
+                                        <font color="orange"><label>Body: </label></font></td>
+                                        <td>
+                                            <input type="text" name="body" [(ngModel)]="body" id="body" required placeholder="Enter Body" />
+                                        </td>
+                                </tr>
+                                <tr>
+                                    <td style="font-family: century gothic, arial, verdana; font-size:20px; font-weight:bold;" align="right">
+                                        <font color="orange"><label>Attachment: </label></font></td>
+                                        <td>
+                                            <input type="file" name="attachment" [(ngModel)]="attachment" id="attachment" required placeholder="Upload File" />
+                                        </td>
+                                </tr>
+                                <tr>
+                                    <td style="font-family: century gothic, arial, verdana; font-size:20px; font-weight:bold;" align="right">
+                                        <font color="orange"><label>Server: </label></font></td>
+                                        <td>
+                                           <select class="ml-1" name="urlType" [(ngModel)]="urlType">
+                                               <option></option>
+                                               <option value="false">Local Server</option>
+                                               <option value="true">Aws Server</option>
+                                           </select>
+                                        </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="5" align="center">
+                                        <input class="btn btn-success" style="color:Black;background-color:#007700;height:35px;width:70px;" type="submit" name="submit_reg" value="Send" (click)="sendEmail(urlType)"/>
+                                    </td>
+                                </tr>
+                            </tbody>
+    
+                        </table>
+    
+                    <!-- </td> -->
+                </tr>
+            </tbody>
+        </table>
+        
+    </div>

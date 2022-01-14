@@ -9,7 +9,7 @@ import { Employee } from './employee';
 })
 export class EmployeeService {
 private baseURL = "http://localhost:8080/api/users";
-baseAwsUrl:string = "http://ec2-3-134-78-107.us-east-2.compute.amazonaws.com:8080/api/users";
+private baseAwsUrl = "http://ec2-3-134-78-107.us-east-2.compute.amazonaws.com:8080/api/users";
 
   constructor(private httpClient: HttpClient) { }
   
